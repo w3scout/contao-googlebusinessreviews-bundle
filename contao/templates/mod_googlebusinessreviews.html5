@@ -1,0 +1,39 @@
+<?php $this->extend('block_searchable'); ?>
+
+<?php $this->block('content'); ?>
+
+    <div class="reviews">
+        <?php
+        $reviews = $this->reviews;
+        foreach ($reviews as $review): ?>
+        <div class="review">
+            <div class="author">
+                <a href="<?= $review['author_url'] ?>" target="_blank"><img class="profile" src="<?= $review['profile_photo_url'] ?>" alt="Photo of <?= $review['author_name'] ?>" width="40" height="40"></a>
+                <div>
+                    <p class="name"><a href="<?= $review['author_url'] ?>" target="_blank"><?= $review['author_name'] ?></a></p>
+                    <p class="date"><?= $review['relative_time_description'] ?></p>
+                </div>
+            </div>
+            <div class="rating">
+                <?php for ($i = 0; $i < 5; $i++): ?>
+                <i class="icon-star <?= $review['rating'] <= $i ? 'grey' : 'yellow'; ?> "></i>
+                <?php endfor; ?>
+            </div>
+            <p class="text"><?= $review['text'] ?></p>
+            <div class="google"></div>
+        </div>
+        <?php endforeach; ?>
+    </div>
+
+    <?php if ($this->link2gbp): ?>
+        <div class="link2gbp">
+            <a href="<?= $this->link2gbp ?>" target="_blank"><?= $this->link2gbp_txt ?></a>
+        </div>
+    <?php endif; ?>
+    <?php if ($this->new_review_link): ?>
+        <div class="new_review_link">
+            <a href="<?= $this->new_review_link ?>" target="_blank"><?= $this->new_review_link_txt ?></a>
+        </div>
+    <?php endif; ?>
+
+<?php $this->endblock(); ?>
