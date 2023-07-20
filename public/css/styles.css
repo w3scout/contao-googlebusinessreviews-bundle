@@ -98,10 +98,25 @@
     font-size: 1rem;
     color: rgb(70, 70, 70);
     line-height: 1.4;
+    max-height: 110px;
+    overflow: hidden;
+}
+.mod_googlebusinessreviews .review.open .text {
+    max-height: 100%;
+    overflow: visible;
+}
+.mod_googlebusinessreviews .review .readmore {
+    display: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.mod_googlebusinessreviews .review.open .readmore {
+    display: block;
 }
 .mod_googlebusinessreviews .review .google {
     width: 70px;
     height: 24px;
+    margin: 20px 0 0;
     display: inline-block;
     background: url("../img/logo_google_200x68.png") center no-repeat;
     background-size: cover;
@@ -114,6 +129,7 @@
     text-align: right;
     margin-top: 10px;
 }
+
 @media (max-width: 967px) {
     .mod_googlebusinessreviews .reviews {
         flex-direction: column;
