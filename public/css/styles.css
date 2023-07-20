@@ -94,7 +94,7 @@
 .mod_googlebusinessreviews .review .rating .icon-star.grey {
     color: lightgrey;
 }
-.mod_googlebusinessreviews .review .text p {
+.mod_googlebusinessreviews .review .text {
     font-size: 1rem;
     color: rgb(70, 70, 70);
     line-height: 1.4;
