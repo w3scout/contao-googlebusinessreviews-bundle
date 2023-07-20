@@ -2,11 +2,11 @@
 
 <?php $this->block('content'); ?>
 
-    <div class="reviews">
+    <ul class="reviews">
         <?php
         $reviews = $this->reviews;
         foreach ($reviews as $review): ?>
-        <div class="review">
+        <li class="review">
             <div class="author">
                 <a href="<?= $review['author_url'] ?>" target="_blank"><img class="profile" src="<?= $review['profile_photo_url'] ?>" alt="Photo of <?= $review['author_name'] ?>" width="40" height="40"></a>
                 <div>
@@ -21,9 +21,9 @@
             </div>
             <p class="text"><?= $review['text'] ?></p>
             <div class="google"></div>
-        </div>
+        </li>
         <?php endforeach; ?>
-    </div>
+    </ul>
 
     <?php if ($this->link2gbp): ?>
         <div class="link2gbp">
