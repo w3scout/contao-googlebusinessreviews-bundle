@@ -19,7 +19,8 @@
                 <i class="icon-star <?= $review['rating'] <= $i ? 'grey' : 'yellow'; ?> "></i>
                 <?php endfor; ?>
             </div>
-            <p class="text"><?= $review['text'] ?></p>
+            <p class="text"><?= trim($review['text']) ?></p>
+            <a class="readmore"><?= $this->readmore ?></a>
             <div class="google"></div>
         </li>
         <?php endforeach; ?>
