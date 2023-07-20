@@ -17,3 +17,4 @@ declare(strict_types=1);
  */
 $GLOBALS['TL_LANG']['MSC']['w3s_reviews_show_all_reviews'] = 'View all reviews on Google';
 $GLOBALS['TL_LANG']['MSC']['w3s_reviews_write_new_review'] = 'Write a review';
+$GLOBALS['TL_LANG']['MSC']['w3s_reviews_readmore'] = 'Read more';
