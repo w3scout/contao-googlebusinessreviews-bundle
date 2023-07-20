@@ -39,4 +39,4 @@ Go to your Google My Business entry and click on "Write a review". Copy the link
 
 ## (*) Known limitations:
 the Google Places API returnes max. 5 reviews.<br>
-If you need more, you need to request access to the Business Profile API: https://developers.google.com/my-business/content/overview?hl=de
+If you need more, you need to request access to the Business Profile API: https://developers.google.com/my-business/content/overview?hl=de (not supported yet)
