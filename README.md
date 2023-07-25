@@ -17,7 +17,6 @@ composer require w3scout/contao-googlebusinessreviews-bundle
 ```
 
 ## Requirements:
-- Contao >= 4.13
 - Google Cloud Console Account
 - Google Business Account
 - Google Places API Key
