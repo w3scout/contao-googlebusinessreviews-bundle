@@ -1,9 +1,9 @@
 
 # Contao GoogleBusinessReviews Bundle
 
-[![Latest Stable Version](https://poser.pugx.org/w3scout/contao-googlebusinessreviews-bundle/v/stable)](https://packagist.org/packages/w3scout/contao-memberredirect-bundle)
-[![Total Downloads](https://poser.pugx.org/w3scout/contao-googlebusinessreviews-bundle/downloads)](https://packagist.org/packages/w3scout/contao-memberredirect-bundle)
-[![License](https://poser.pugx.org/w3scout/contao-googlebusinessreviews-bundle/license)](https://packagist.org/packages/w3scout/contao-memberredirect-bundle)
+[![Latest Stable Version](https://poser.pugx.org/w3scout/contao-googlebusinessreviews-bundle/v/stable)](https://packagist.org/packages/w3scout/contao-googlebusinessreviews-bundle)
+[![Total Downloads](https://poser.pugx.org/w3scout/contao-googlebusinessreviews-bundle/downloads)](https://packagist.org/packages/w3scout/contao-googlebusinessreviews-bundle)
+[![License](https://poser.pugx.org/w3scout/contao-googlebusinessreviews-bundle/license)](https://packagist.org/packages/w3scout/contao-googlebusinessreviews-bundle)
 
 ## About
 A Contao bundle that displays Google My Business reviews (*).
