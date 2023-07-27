@@ -82,6 +82,7 @@ class GooglebusinessreviewsController extends AbstractFrontendModuleController
         $reviews = $this->getGoogleReviews($config);
         $template->reviews = $reviews;
         $template->readmore = $GLOBALS['TL_LANG']['MSC']['w3s_reviews_readmore'];
+        $template->readless = $GLOBALS['TL_LANG']['MSC']['w3s_reviews_readless'];
 
         if($config->link2gbp !== '') {
             $template->link2gbp = $config->link2gbp;

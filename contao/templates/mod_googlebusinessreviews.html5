@@ -20,7 +20,7 @@
                 <?php endfor; ?>
             </div>
             <p class="text"><?= trim($review['text']) ?></p>
-            <a class="readmore"><?= $this->readmore ?></a>
+            <a class="readmore" data-readmore="<?= $this->readmore ?>" data-readless="<?= $this->readless ?>">Mehr</a>
             <div class="google"></div>
         </li>
         <?php endforeach; ?>
