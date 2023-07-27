@@ -15,7 +15,7 @@ declare(strict_types=1);
 /**
  * Miscellaneous
  */
-$GLOBALS['TL_LANG']['MSC']['w3s_reviews_show_all_reviews'] = 'Alle Bewertungen auf Google ansehen';
+$GLOBALS['TL_LANG']['MSC']['w3s_reviews_show_all_reviews'] = 'Alle Bewertungen zeigen';
 $GLOBALS['TL_LANG']['MSC']['w3s_reviews_write_new_review'] = 'Eine Rezension schreiben';
 $GLOBALS['TL_LANG']['MSC']['w3s_reviews_readmore'] = 'Mehr anzeigen';
 $GLOBALS['TL_LANG']['MSC']['w3s_reviews_readless'] = 'Weniger anzeigen';
