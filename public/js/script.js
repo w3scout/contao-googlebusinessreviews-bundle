@@ -7,7 +7,6 @@
             // console.log("initToggles");
 
             function toggleText(el) {
-                console.log("toogle", el);
                 el.parentNode.classList.contains('open') ? el.innerText = el.getAttribute('data-readless') : el.innerText = el.getAttribute('data-readmore');
             }
 
