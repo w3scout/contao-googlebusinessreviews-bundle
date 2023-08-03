@@ -31,9 +31,6 @@ class W3ScoutContaoGoogleBusinessReviewsExtension extends Extension
             $container,
             new FileLocator(__DIR__.'/../../config')
         );
-
-        $loader->load('parameters.yaml');
         $loader->load('services.yaml');
-        $loader->load('listener.yaml');
     }
 }
