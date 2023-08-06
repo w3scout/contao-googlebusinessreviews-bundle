@@ -4,8 +4,6 @@
     document.addEventListener("DOMContentLoaded", function() {
 
         function initToggles() {
-            // console.log("initToggles");
-
             function toggleText(el) {
                 el.parentNode.classList.contains('open') ? el.innerText = el.getAttribute('data-readless') : el.innerText = el.getAttribute('data-readmore');
             }

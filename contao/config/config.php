@@ -10,5 +10,5 @@
  * @link https://github.com/w3scout/contao-google-business-reviews
  */
 
-$GLOBALS['TL_CSS'][] = 'bundles/w3scoutcontaogooglebusinessreviews/css/styles.css|static';
-$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/w3scoutcontaogooglebusinessreviews/js/script.js|static';
+$GLOBALS['TL_CSS'][] = 'bundles/w3scoutcontaogooglebusinessreviews/styles.min.css|static';
+$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/w3scoutcontaogooglebusinessreviews/script.min.js|static';
