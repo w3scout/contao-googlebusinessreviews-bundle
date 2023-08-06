@@ -8,8 +8,6 @@
 ## About
 A Contao bundle that displays Google My Business reviews (*).
 
-### Notice: this bundle is still under construction!
-
 ## Installation
 Install [composer](https://getcomposer.org) if you haven't already, then enter this command in the main directory of your Contao installation:
 ```sh
