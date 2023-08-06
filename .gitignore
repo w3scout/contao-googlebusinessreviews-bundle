@@ -1,6 +1,9 @@
 # Jetbrains
 /.idea/*
 
+# Node
+/node_modules
+
 # tools
 /vendor/
 /tools/*/vendor
